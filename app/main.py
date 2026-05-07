@@ -9,8 +9,11 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
+    allow_origins=[
+        "https://todofrontend-3foej5jzp-oladejifalade-7202s-projects.vercel.app",
+        "https://todolist-psi-one-45.vercel.app",
+    ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
