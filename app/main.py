@@ -11,6 +11,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://todofrontend-3foej5jzp-oladejifalade-7202s-projects.vercel.app",
+        "https://todofrontend-gi7c3d5k8-oladejifalade-7202s-projects.vercel.app",
         "https://todolist-psi-one-45.vercel.app",
     ],
     allow_credentials=True,
